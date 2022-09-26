@@ -66,7 +66,7 @@ xRenderer.grid.template.set("visible", false);
 xRenderer.labels.template.setAll({
   location: 0.5,
   rotation: -90,
-  fontSize: 8,
+  fontSize: 10,
   multiLocation: 0.5
 });
 
