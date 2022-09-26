@@ -84,6 +84,17 @@ var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
   renderer: am5xy.AxisRendererY.new(root, {})
 }));
 
+yAxis.children.unshift(
+  am5.Label.new(root, {
+    rotation: -90,
+    text: "Average SPX Points",
+    y: am5.p50,
+    centerX: am5.p50
+  })
+);
+
+
+
 var series = chart.series.push(am5xy.LineSeries.new(root, {
   xAxis: xAxis,
   yAxis: yAxis,
