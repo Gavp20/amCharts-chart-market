@@ -62,7 +62,7 @@ var data = [ ${data} ];
 
 // Create axes
 var xRenderer = am5xy.AxisRendererX.new(root, {});
-xRenderer.grid.template.set("location", 0.5);
+xRenderer.grid.template.set("visible", false);
 xRenderer.labels.template.setAll({
   location: 0.5,
   rotation: -90,
